@@ -1,0 +1,30 @@
+Algorithm
+
+ Step: 1 grade system 
+I have initiated some dummy strings ( s,a,b,c,d,e) and used strcmp function to compare the given grade with dummy string if they are same corresponding grade points multiplied with corresponding credit and this answer in stored variable "points".
+
+Step: 2 GPA for one semester 
+Using "switch case”  I used to obtain different grades for different subjects. Case of switch contains different subjects.
+
+Switch (choice)
+{Case 1:
+{ (subject) 
+Grade system}} 
+
+And using GPA formula calculate GPA of that semester
+
+Step: 3 GPA for all semester
+
+Now I used main switch case for all semesters. And insert GPA calculation for single semester (step :2) in case of the main switch case . See the code for reference
+
+Switch (sem selection)
+{Case 1: ( sem 1)
+Switch (choice)
+{ Case 1:
+{ (subject) 
+Grade system}}
+}
+
+Step: 4 final code
+Finally before this main switch statement, I used strcmp function to compare given string is GPA or CGPA then it probably continue with the option that you have given by GPA and CGPA formulas
+

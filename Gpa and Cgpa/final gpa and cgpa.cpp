@@ -2028,7 +2028,7 @@ else if(strcmp(select, dummy8)==0 )
 {
     cout <<"you have selected CGPA ";
 
-    cout <<" enter GPA for the all sem";
+    cout <<" enter GPA for the all sem \n";
 
     cout <<"1. SEM1 \n";
 
@@ -2067,7 +2067,8 @@ cout <<"8. SEM8 \n";
 cin >>gpa8;
 finalgpa =(gpa1+gpa2+gpa3+gpa4+gpa5+gpa6+gpa7+gpa8)/8;
 
-
+cout <<"YOUR CGPA IS";
+    cout <<finalgpa;
 }
 else
 {
